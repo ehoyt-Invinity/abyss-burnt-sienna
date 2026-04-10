@@ -1,0 +1,158 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Abyss – Burnt Sienna Shift",
+  "type": "dark",
+
+  // ---------------------------------------------------------------------------
+  // Editor & UI Colors
+  // ---------------------------------------------------------------------------
+  "colors": {
+    "editor.background": "#0B0A09",
+    "editor.foreground": "#E8D7D0",
+
+    "editorCursor.foreground": "#E97451",
+    "editor.selectionBackground": "#3A1E14",
+    "editor.inactiveSelectionBackground": "#2A1812",
+    "editor.lineHighlightBackground": "#120C09",
+    "editorIndentGuide.background1": "#2A1A15",
+    "editorIndentGuide.activeBackground1": "#4C2A1F",
+    "editorError.foreground": "#FF3B30",
+    "editorWarning.foreground": "#FF9F0A",
+    "editorInfo.foreground": "#5AC8FA",
+
+    "editorLineNumber.foreground": "#7F564C",
+    "editorLineNumber.activeForeground": "#E97451",
+
+    "activityBar.background": "#120D0B",
+    "activityBar.foreground": "#E8D7D0",
+    "activityBarBadge.background": "#E97451",
+    "activityBarBadge.foreground": "#0B0A09",
+
+    "sideBar.background": "#100C0A",
+    "sideBar.foreground": "#D8C5BE",
+    "sideBar.border": "#1A1210",
+
+    "statusBar.background": "#1C1310",
+    "statusBar.foreground": "#E8D7D0",
+    "statusBar.border": "#2A1A15",
+
+    "tab.activeBackground": "#1A1412",
+    "tab.inactiveBackground": "#120D0C",
+    "tab.activeForeground": "#F1E3DC",
+    "tab.inactiveForeground": "#A68D84",
+    "tab.border": "#0F0908",
+
+    "panel.background": "#0D0B0A",
+    "panel.border": "#2A1A15",
+
+    "titleBar.activeBackground": "#140F0D",
+    "titleBar.activeForeground": "#E8D7D0",
+    "titleBar.inactiveForeground": "#A68D84",
+    "titleBar.inactiveBackground": "#120D0B",
+
+    // Explorer + list error colors
+    "list.errorForeground": "#D73A3A",
+    "list.invalidItemForeground": "#D73A3A",
+
+    
+    // ---------------------------------------------------------------------------
+    // Terminal Colors — canonical hues, gently theme-aligned
+    // ---------------------------------------------------------------------------
+    
+    "terminal.background": "#0B0A09",
+    "terminal.foreground": "#DED0c9",
+    "terminalCursor.foreground": "#E97451",
+    
+    // Standard ANSI
+    "terminal.ansiBlack": "#1A1412",
+    "terminal.ansiRed": "#D73A3A",        // true red, not sienna
+    "terminal.ansiGreen": "#6FAF8A",      // natural green, slightly muted
+    "terminal.ansiYellow": "#E0B95C",     // warm yellow (ochre-adjacent)
+    "terminal.ansiBlue": "#5D86B3",        // readable blue, not neon
+    "terminal.ansiMagenta": "#B07AAE",     // classic magenta, softened
+    "terminal.ansiCyan": "#6FB3A6",        // clean cyan, slightly warm
+    "terminal.ansiWhite": "#E8D7D0",
+    
+    // Bright ANSI
+    "terminal.ansiBrightBlack": "#7A6E68",
+    "terminal.ansiBrightRed": "#FF4C4C",
+    "terminal.ansiBrightGreen": "#8FD7A8",
+    "terminal.ansiBrightYellow": "#FFD479",
+    "terminal.ansiBrightBlue": "#80A7D8",
+    "terminal.ansiBrightMagenta": "#D19AD0",
+    "terminal.ansiBrightCyan": "#8FD9CB",
+    "terminal.ansiBrightWhite": "#FFF2EC"
+    },
+
+  // ---------------------------------------------------------------------------
+  // Token Colors (Syntax Highlighting)
+  // ---------------------------------------------------------------------------
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#E97451" }  // Burnt sienna core
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": { "foreground": "#E8D7D0" }  // Nearly-white warm beige
+    },
+    {
+      "scope": ["string", "constant.character"],
+      "settings": { "foreground": "#D86E4C" }  // Deeper sienna-orange
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#F28C6A" }  // Brighter sienna highlight
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#FFAB85" }  // Soft peach highlight
+    },
+    {
+      "scope": ["entity.name.type", "support.class", "support.type", "entity.name.class"],
+      "settings": { "foreground": "#D6B36A" }  // Muted clay tones for types
+    },
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#8A7F78",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#D8B4A6" } // Soft sand for parameters
+    },
+    {
+      "scope": ["punctuation.separator", "meta.brace"],
+      "settings": { "foreground": "#A56A56" } // Rust-like structural tone
+    },
+    {
+      "scope": ["operator"],
+      "settings": { "foreground": "#E68463" }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF3B30",
+        // "background": "#B3261E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.function",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#F1B88C"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "abyss-burnt-sienna",
+  "displayName": "Abyss – Burnt Sienna Shift",
+  "version": "1.0.0",
+  "publisher": "elliot-hoyt",
+  "engines": {"vscode": "^1.0.0"},
+  "contributes": {
+    "themes": [
+      {
+        "label": "Abyss – Burnt Sienna Shift",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abyss-burnt-sienna-color-theme.json"
+      }
+    ]
+  }
+}
