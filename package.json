@@ -9,7 +9,8 @@
       {
         "label": "Abyss – Burnt Sienna Shift",
         "uiTheme": "vs-dark",
-        "path": "./themes/abyss-burnt-sienna-color-theme.json"
+        "path": "./themes/abyss-burnt-sienna-color-theme.json",
+        "icon": "icon.png"
       }
     ]
   }
