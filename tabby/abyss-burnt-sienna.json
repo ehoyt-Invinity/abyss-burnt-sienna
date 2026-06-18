@@ -1,0 +1,39 @@
+{
+  "name": "Abyss – Burnt Sienna Shift",
+  "type": "dark",
+
+  "colors": {
+    "terminal.background": "#0B0A09",
+    "terminal.foreground": "#E8D7D0",
+    "terminal.cursor": "#E97451",
+    "terminal.selection": "#3A1E14",
+
+    "tab.activeBackground": "#1A1412",
+    "tab.inactiveBackground": "#120D0C",
+    "tab.activeForeground": "#F1E3DC",
+    "tab.inactiveForeground": "#A68D84",
+
+    "window.background": "#0B0A09",
+    "sidebar.background": "#100C0A"
+  },
+
+  "terminal": {
+    "black": "#1A1412",
+    "red": "#D73A3A",
+    "green": "#6FAF8A",
+    "yellow": "#E0B95C",
+    "blue": "#5D86B3",
+    "magenta": "#B07AAE",
+    "cyan": "#6FB3A6",
+    "white": "#E8D7D0",
+
+    "brightBlack": "#7A6E68",
+    "brightRed": "#FF4C4C",
+    "brightGreen": "#8FD7A8",
+    "brightYellow": "#FFD479",
+    "brightBlue": "#80A7D8",
+    "brightMagenta": "#D19AD0",
+    "brightCyan": "#8FD9CB",
+    "brightWhite": "#FFF2EC"
+  }
+}
