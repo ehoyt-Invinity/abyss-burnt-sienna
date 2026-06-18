@@ -1,4 +1,7 @@
 -- Abyss – Burnt Sienna Shift
+-- A warm, earthy theme with a focus on readability and contrast.
+-- install at ~/.config/nvim/colors/abyss-burnt-sienna.lua
+
 
 vim.opt.background = "dark"
 vim.g.colors_name = "abyss-burnt-sienna"
@@ -92,3 +95,70 @@ hi("@operator",       { fg = "#E68463" })
 hi("@lsp.type.class",     { fg = "#D6B36A" })
 hi("@lsp.type.function",  { fg = "#F1B88C" })
 hi("@lsp.type.variable",  { fg = "#E8D7D0" })
+-- ---------------------------------------------------------------------------
+-- Treesitter Captures (core)
+-- ---------------------------------------------------------------------------
+
+-- Keywords / control flow
+hi("@keyword",              { fg = "#E97451" })
+hi("@keyword.function",     { fg = "#E97451" })
+hi("@conditional",          { fg = "#E97451" })
+hi("@repeat",               { fg = "#E97451" })
+
+-- Functions
+hi("@function",             { fg = "#F1B88C" })
+hi("@function.call",        { fg = "#F1B88C" })
+hi("@function.method",      { fg = "#F1B88C" })
+hi("@method.call",          { fg = "#F1B88C" })
+
+-- Types / classes (yellow-ochre separation)
+hi("@type",                 { fg = "#D6B36A" })
+hi("@type.builtin",         { fg = "#D6B36A" })
+hi("@class",                { fg = "#D6B36A" })
+hi("@struct",               { fg = "#D6B36A" })
+hi("@interface",            { fg = "#D6B36A" })
+hi("@enum",                 { fg = "#D6B36A" })
+
+-- Variables
+hi("@variable",             { fg = "#E8D7D0" })
+hi("@variable.parameter",   { fg = "#D8B4A6" })
+hi("@variable.member",      { fg = "#E8D7D0" })
+
+-- Constants / numbers
+hi("@constant",             { fg = "#F28C6A" })
+hi("@constant.builtin",     { fg = "#F28C6A" })
+hi("@number",               { fg = "#F28C6A" })
+hi("@float",                { fg = "#F28C6A" })
+hi("@boolean",              { fg = "#F28C6A" })
+
+-- Strings
+hi("@string",               { fg = "#D86E4C" })
+hi("@string.escape",        { fg = "#FFAB85" })
+hi("@string.special",       { fg = "#FFAB85" })
+
+-- Comments
+hi("@comment",              { fg = "#8A7F78", italic = true })
+
+-- Operators / punctuation
+hi("@operator",             { fg = "#E68463" })
+hi("@punctuation",          { fg = "#A56A56" })
+hi("@punctuation.delimiter",{ fg = "#A56A56" })
+hi("@punctuation.bracket",  { fg = "#A56A56" })
+
+-- Fields / properties
+hi("@property",             { fg = "#E8D7D0" })
+hi("@field",                { fg = "#E8D7D0" })
+
+-- Namespaces / modules
+hi("@namespace",            { fg = "#C78A78" })
+hi("@module",               { fg = "#C78A78" })
+
+-- Constructors (nice subtle highlight)
+hi("@constructor",          { fg = "#E8A987" })
+
+-- Builtins
+hi("@function.builtin",     { fg = "#F1B88C" })
+hi("@variable.builtin",     { fg = "#E8D7D0" })
+
+hi("@function.builtin.python", { fg = "#F1B88C" })
+hi("@type.python",             { fg = "#D6B36A" })
